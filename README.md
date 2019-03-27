@@ -1,7 +1,8 @@
 # PythonMentoring
 for Python Mentoring 
 
-- Mentor: Hanbin
-- Mentee: ?
-- Period: ?
-- Photos ? ^^
+내용이 정리되면 README.md 수정하겠습니다..
+
+- Mentor: 한림대학교 소프트웨어융합대학 빅데이터학과 이한빈
+- Mentee: 김지수, 이시온, 이건우, 문현승, 이찬우, 윤지현, 김찬호, 서원진, 김병두, 건호, 재준
+- Period: 19/04/01 ~ 19/05/31
