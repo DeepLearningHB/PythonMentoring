@@ -1,12 +1,16 @@
 user = int(input("더해주는 마지막 수를 입력하시오 : "))
 
-if (user%2) != 0 :
-    print((1 + user) * (user//2) + user//2)
+#수식이 있는 부분은 간단한 주석을 달아주는 편이 좋습니다. (필수 수정사항은 아님)
+if (user%2) != 0 : # 홀수라면
+    print((1 + user) * (user//2) + user//2) #~~연산
+    
 
 else :
-    print((1 + user) * (user//2))
+    print((1 + user) * (user//2)) # ~ 연산
 
-sum = 0
-for i in range(1, 100):
-    sum+=i
-print(sum)
+# 결과 오류가 있을 것이라 사료됩니다. 
+# 1부터 99까지 수행시 4950이 나와야 정상이지만 4949가 나오네요!
+'''
+user = int(input("수 입력: "))
+print("결과: %d" % ((user*(user+1)/2)))
+'''
