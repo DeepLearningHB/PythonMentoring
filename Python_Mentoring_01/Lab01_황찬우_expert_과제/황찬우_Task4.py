@@ -24,3 +24,4 @@ for i in range(1, len(user)):
         length += 10
 #Good
 print(length)
+# 추가 피드백: 아무것도 입력하지 않았을 시 10이 출력됨, 예외 처리가 
