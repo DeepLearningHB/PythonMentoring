@@ -1,0 +1,10 @@
+user = input("그릇이 쌓은 형태를 입력하시오 : ")		#그릇이 쌓인 형태 즉 (, )를 입력받는다.
+length = 10					#length라는 변수에 10을 초기값으로 설정한다.
+while user.count("(")+user.count(")") != len(user):		#user 안에 있는 (, )를 더한 개수가 user의 길이와 다르면 종료되는 반복문을 만든다.
+     user = input("'(' 나 ')' 를 입력해주세요 : ")		#user라는 변수에 (나 )를 입력해달라는 변수를 만든다.
+for i in range(1, len(user)):				#i에 초기값이 1이고 user의 길이만큼 반복하는 반복문을 만든다.
+    if user[i] == user[i - 1]:				#user[i]와 user[i-1]의 문자(그릇)가 같디면
+        length += 5					#length에 5를 더하고
+    else:						#다르다면
+        length += 10				#length에 10을 더한다.
+print(length)					#length를 출력해준다.
