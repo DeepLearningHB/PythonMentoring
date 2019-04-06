@@ -13,3 +13,4 @@ for i in A :
     if i < min :
         min = i
 print(min)
+# 
